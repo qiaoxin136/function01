@@ -1,4 +1,4 @@
-
+import type { Handler } from "aws-lambda";
 import type { Schema } from "../../data/resource"
 import { env } from "$amplify/env/sayHello";
 type handlerType = Schema['sayHello']['functionHandler']
