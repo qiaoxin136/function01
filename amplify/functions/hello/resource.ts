@@ -1,6 +1,6 @@
 import { defineFunction } from '@aws-amplify/backend';
 
-export const REGION = "eu-central-1";
+export const REGION = "us-east-1";
 export const TABLE_NAME = "products";
 
 export const sayHello = defineFunction({
